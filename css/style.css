@@ -6,11 +6,12 @@
 
 body {
 font-family: 'Roboto', sans-serif;
+color: #33475b;
 }
 
 .navbar,
 .header.main {
-  padding: 0 10vw;
+  padding: 0 12vw;
 }
 
 .navbar {
@@ -67,8 +68,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .second.navbar .left img {
-  height: 4vh;
-  margin: 21px 0;
+  height: 3.7vh;
+  margin: 23px 0;
 }
 
 header hr {
@@ -92,13 +93,25 @@ padding-top: 5%;
 .header.main h1 {
   font-size: 50px;
   margin-bottom: 5%;
-  color: #33475b;
+  font-weight: 600;
 }
 
 .header.main p {
   font-size: 16px;
-  margin-bottom: 4%;
+  line-height: 30px;
+  margin-bottom: 10%;
+}
 
+.header.title-box .orange.button {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 25px 50px;
+}
+
+.header h5 {
+  margin-top: 60px;
+  font-weight: normal;
 }
 
 header .thick-hr {
@@ -112,7 +125,57 @@ header .thick-hr {
 
 .main.top {
   background-color: #f4f9fd;
-  height: 150vh;
+  height: 170vh;
+}
+
+.cube.section {
+  height: 25%;
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.cube.section h2 {
+margin-top: 20px;
+font-size: 30px;
+}
+
+.cube.section p {
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.crm.section {
+background-color: lightgreen;
+height: 23%;
+margin: 1% 12vw;
+box-shadow: 0 0 5px #BBBBBB;
+}
+
+.middle-columns {
+height: 45%;
+margin: 5vh 12vw;
+}
+
+.hub {
+  float: left;
+  height: 100%;
+  width: 30%;
+  box-shadow: 0 0 5px #BBBBBB;
+}
+
+.marketing.hub {
+background-color: blue;
+}
+
+.sales.hub {
+  background-color: green;
+  margin: 0 5%;
+}
+
+.service.hub {
+  background-color: grey;
 }
 
 .main.middle {
