@@ -61,6 +61,8 @@ color: #33475b;
   background-color: #fe775a;
   padding: 10px 10px;
   border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .second.navbar {
@@ -147,35 +149,76 @@ font-size: 30px;
 }
 
 .crm.section {
-background-color: lightgreen;
-height: 23%;
-margin: 1% 12vw;
-box-shadow: 0 0 5px #BBBBBB;
+  height: 23%;
+  margin: 1% 12vw;
+  box-shadow: 0 0 4px #CCCCCC;
+  background-color: white;
+}
+
+.crm-img {
+  width: 20%;
+  height: 70%;
+  float: left;
+  margin: 50px 50px 50px 80px;
+  text-align: center;
+}
+
+.crm img {
+  margin: 15px auto 30px;
+}
+
+.crm .orange.button {
+  /* margin: 20px 30px; */
+  padding: 20px 36px;
+  display: inline-block;
+}
+
+.crm-testo {
+  float: left;
+  width: 55%;
+  height: 70%;
+  margin-top: 55px;
+}
+
+.crm-testo h3 {
+  font-size: 30px;
+  margin: 25px 0 35px;
+}
+
+.crm-testo #crm-p {
+  line-height: 28px;
+}
+
+.crm-testo #pop-feat {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.crm-testo hr {
+  display: inline-block;
+  width: 60%;
+  margin-left: 80px;
 }
 
 .middle-columns {
-height: 45%;
-margin: 5vh 12vw;
+  height: 45%;
+  margin: 5vh 12vw;
 }
 
 .hub {
   float: left;
   height: 100%;
   width: 30%;
-  box-shadow: 0 0 5px #BBBBBB;
-}
-
-.marketing.hub {
-background-color: blue;
+  box-shadow: 0 0 4px #CCCCCC;
+  background-color: white;
 }
 
 .sales.hub {
-  background-color: green;
   margin: 0 5%;
-}
-
-.service.hub {
-  background-color: grey;
 }
 
 .main.middle {
