@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar,
+.header.main {
+  padding: 0 10vw;
+}
+
+.navbar {
+  width: 100%;
+  height: 9vh;
+}
+
+.navbar a {
+  line-height: 9vh;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.first.navbar {
+  background-color: #F5F8FA;
+}
+
+.first.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first.navbar .left a,
+.second.navbar .right a {
+  color: #32495b;
+}
+
+.header .buttons {
+  display: inline;
+}
+
+.header .right.buttons {
+  float: right;
+}
+
+#login {
+  color: #fe775a;
+  background-color: #fafcfe;
+  padding: 10px 10px;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+}
+
+.orange.button {
+  color: white;
+  background-color: #fe775a;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.second.navbar {
+  background-color: #FFF;
+}
+
+.second.navbar .left img {
+  height: 4vh;
+  margin: 21px 0;
+}
+
+header hr {
+  border: 1px solid #32495B;
+}
+
+.header.main {
+  height: 65.2vh;
+  background-color: #fff4ef;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.header.title-box {
+width: 40%;
+height: 60%;
+padding-top: 5%;
+}
+
+.header.main h1 {
+  font-size: 50px;
+  margin-bottom: 5%;
+  color: #33475b;
+}
+
+.header.main p {
+  font-size: 16px;
+  margin-bottom: 4%;
+
+}
+
+header .thick-hr {
+  border: 2px solid #32495B;
+}
+
+.header.bottom {
+  background-color: #afebe4;
+  height: 9vh;
+}
+
+.main.top {
+  background-color: #f4f9fd;
+  height: 150vh;
+}
+
+.main.middle {
+  background-color: #00aab7;
+  height: 80vh;
+}
+
+.main.bottom {
+  background-color: #FFF;
+  height: 80vh;
+}
+
+footer {
+  background-color: #32495b;
+  height: 70vh;
+}
