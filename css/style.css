@@ -167,7 +167,7 @@ font-size: 30px;
   margin: 15px auto 30px;
 }
 
-.crm .orange.button {
+.learn.orange.button {
   /* margin: 20px 30px; */
   padding: 20px 36px;
   display: inline-block;
@@ -189,10 +189,14 @@ font-size: 30px;
   line-height: 28px;
 }
 
-.crm-testo #pop-feat {
+.crm li {
+  display: inline-block;
+  list-style: circle;
+}
+
+.pop-feat {
   font-size: 20px;
   text-transform: uppercase;
-  font-weight: bold;
   margin: 20px 0;
   display: inline-block;
   vertical-align: middle;
@@ -215,10 +219,39 @@ font-size: 30px;
   width: 30%;
   box-shadow: 0 0 4px #CCCCCC;
   background-color: white;
+  text-align: center;
+}
+
+.hub img {
+  margin: 20px auto 10px;
+}
+
+.hub h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.hub p {
+line-height: 28px;
+margin: 0 28px;
+}
+
+.hub hr {
+  margin: 70px 35px 20px;
 }
 
 .sales.hub {
   margin: 0 5%;
+}
+
+.hub ul {
+  list-style: url();
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 10px auto 70px;
 }
 
 .main.middle {
