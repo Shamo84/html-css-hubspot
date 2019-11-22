@@ -44,18 +44,6 @@ color: #33475b;
   color: #32495b;
 }
 
-.header.second.navbar::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.second .left.logo {
-  height: 85px;
-  width: auto;
-  background-image: url();
-  float: left;
-}
 
 .left.buttons a:first-child {
   margin-left: 0;
@@ -103,6 +91,17 @@ color: #33475b;
   background-color: #FFF;
 }
 
+.header.second.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second .left.logo {
+  height: 85px;
+  width: auto;
+  float: left;
+}
 .second.navbar .left img {
   height: 35px;
   margin: 23px 0;
@@ -117,7 +116,7 @@ header hr {
 }
 
 .header.main {
-  height: 610px;
+  min-height: 610px;
   background-color: #fff4ef;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 0;
@@ -165,7 +164,8 @@ header .thick-hr {
 
 .main.top {
   background-color: #f4f9fd;
-  height: 1600px;
+  width: auto;
+  min-height: 1600px;
 }
 
 .main.top li {
@@ -194,22 +194,28 @@ font-size: 30px;
 }
 
 .crm.section {
-  height: 23%;
+  min-height: 360px;
   margin: 1% 12vw;
   box-shadow: 0 0 4px #CCCCCC;
   background-color: white;
 }
 
-.crm-img {
+.crm.section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.crm-img-box {
   width: 20%;
   height: 70%;
   float: left;
-  margin: 50px 50px 50px 80px;
+  margin: 60px 50px 50px 80px;
   text-align: center;
 }
 
 .crm img {
-  margin: 15px auto 30px;
+  margin: 0 auto 30px;
 }
 
 .learn.orange.button {
@@ -222,7 +228,7 @@ font-size: 30px;
   float: left;
   width: 55%;
   height: 70%;
-  margin-top: 55px;
+  margin-top: 40px;
 }
 
 .crm-testo h3 {
@@ -242,7 +248,7 @@ font-size: 30px;
 .pop-feat {
   font-size: 20px;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 30px 0;
   display: inline-block;
   vertical-align: middle;
 }
@@ -260,11 +266,12 @@ font-size: 30px;
 
 .hub {
   float: left;
-  height: 100%;
+  min-height: 800px;
   width: 30%;
   box-shadow: 0 0 4px #CCCCCC;
   background-color: white;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .hub img {
@@ -278,12 +285,13 @@ font-size: 30px;
 }
 
 .hub p {
-line-height: 28px;
-margin: 0 28px;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 28px;
 }
 
 .hub hr {
-  margin: 70px 35px 20px;
+  margin: 90px 35px 30px;
 }
 
 .sales.hub {
@@ -299,39 +307,84 @@ margin: 0 28px;
   margin: 10px auto 70px;
 }
 
+.main.top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .main.middle {
   position: relative;
   background-color: #00aab7;
-  height: 755px;
+  min-height: 755px;
 }
 
-.main.middle.container {
-  position: absolute;
+.main-middle.container {
   height: 75%;
   width: 76%;
-  background-color: lightgreen;
-  left: 50%;
-  top: 10%;
-  transform: translateX(-50%);
+  margin: auto;
+  padding-top: 70px;
   text-align: center;
 }
 
-.main.middle.container h2 {
+.main-middle.container h2 {
   font-size: 42px;
   margin-bottom: 35px;
 }
 
-.main.middle.container p {
+.main-middle.container h3 {
   font-size: 19px;
   line-height: 25px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.main-middle.first-row {
+border-bottom: 1px solid white;
+}
+
+.main-middle.first-row::after,
+.main-middle.second-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-middle > div {
+  width: 25%;
+  height: 170px;
+  float: left;
+  /* background-color: blue; */
+  display: inline-block;
+  border-right: 1px solid white;
+}
+
+.main-middle > div:last-child {
+  border-right: none;
+}
+
+.main-middle img {
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+.main-middle .middle-number {
+font-weight: bold;
+font-size: 40px;
+margin-bottom: 12px;
+}
+
+.main-middle .middle-comment {
+font-size: 13px;
 }
 
 .main.bottom {
   background-color: #FFF;
-  height: 755px;
+  min-height: 755px;
 }
 
 footer {
   background-color: #32495b;
-  height: 660px;
+  min-height: 660px;
 }
