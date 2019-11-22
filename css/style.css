@@ -141,7 +141,7 @@ header hr {
   margin-bottom: 10%;
 }
 
-.header.title-box .orange.button {
+.big.orange.button {
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
@@ -291,7 +291,7 @@ font-size: 30px;
 }
 
 .hub hr {
-  margin: 90px 35px 30px;
+  margin: 90px 40px 30px;
 }
 
 .sales.hub {
@@ -300,7 +300,7 @@ font-size: 30px;
 
 .hub ul {
   list-style:none;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   text-align: left;
   text-transform: capitalize;
@@ -382,6 +382,101 @@ font-size: 13px;
 .main.bottom {
   background-color: #FFF;
   min-height: 755px;
+  margin: 0 12vw;
+}
+
+.main.bottom > div {
+  margin: 70px 0;
+}
+
+.main-bottom-top {
+  min-height: 180px;
+  width: 90%;
+}
+
+.main-bottom-top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-bottom-top-left {
+  float: left;
+  width: 32%;
+  padding: 0 80px;
+}
+
+.main-bottom-top-left h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.main-bottom-top-left P {
+  line-height: 28px;
+}
+
+.main-bottom-top-right {
+  float: right;
+  width: 60%;
+}
+
+.main-bottom-top-right .logo {
+  width: 24%;
+  height: 70px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.main-bottom-top-right img {
+  width: 80%;
+  padding: 30px 0;
+}
+
+.main-bottom-bottom{
+  min-height: 400px;
+}
+
+#atlassian,
+#doordash,
+#wmware {
+  margin-top: 12px;
+}
+
+#subaru {
+  margin-top: 6px;
+}
+
+#wistia {
+  margin-top: 15px;
+}
+
+.main-bottom-bottom-left-container {
+  width: 35%;
+}
+.main-bottom-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-bottom-bottom h2 {
+  font-size: 36px;
+  padding: 40px 0 40px;
+}
+
+.main-bottom-bottom p {
+  padding-bottom: 70px;
+  line-height: 28px;
+}
+
+.main-bottom-bottom h5 {
+  font-weight: 400;
+  padding-top: 80px;
+}
+
+.main-bottom-bottom img {
+  float: right;
+  width: 30%;
 }
 
 footer {
