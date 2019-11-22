@@ -20,13 +20,12 @@ color: #33475b;
 
 .navbar {
   width: 100%;
-  height: 85px;
+  /* height: 85px; */
 }
 
 .navbar a {
   line-height: 85px;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .first.navbar {
@@ -41,7 +40,30 @@ color: #33475b;
 
 .first.navbar .left a,
 .second.navbar .right a {
+  margin-left: 20px;
   color: #32495b;
+}
+
+.header.second.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second .left.logo {
+  height: 85px;
+  width: auto;
+  background-image: url();
+  float: left;
+}
+
+.left.buttons a:first-child {
+  margin-left: 0;
+}
+
+.left.buttons .fa-angle-down {
+  padding: 0 18px 0 0;
+  border-right: 1px solid black;
 }
 
 .header .buttons {
@@ -50,6 +72,14 @@ color: #33475b;
 
 .header .right.buttons {
   float: right;
+}
+
+.header .right.buttons a {
+  margin-left: 25px;
+}
+
+.header .right.buttons .fa-search {
+  color: #00a4bd;
 }
 
 #login {
@@ -78,6 +108,10 @@ color: #33475b;
   margin: 23px 0;
 }
 
+.fa-angle-down {
+  margin-left: 15px;
+}
+
 header hr {
   border: 1px solid #32495B;
 }
@@ -91,9 +125,9 @@ header hr {
 }
 
 .header.title-box {
-width: 40%;
-height: 60%;
-padding-top: 5%;
+  width: 40%;
+  height: 60%;
+  padding-top: 5%;
 }
 
 .header.main h1 {
@@ -202,7 +236,7 @@ font-size: 30px;
 
 .crm li {
   display: inline-block;
-  list-style: circle;
+  margin-right: 20px;
 }
 
 .pop-feat {
