@@ -8,6 +8,7 @@
 .header.second.navbar::after,
 .crm.section::after,
 .main.top::after,
+.middle-columns::after,
 .main-middle.first-row::after,
 .main-middle.second-row::after,
 .main-bottom-top::after,
@@ -89,6 +90,10 @@ color: #33475b;
   border-radius: 5px;
 }
 
+#login:hover {
+  background-color: #f6f6f6;
+}
+
 .orange.button {
   color: white;
   background-color: #fe775a;
@@ -96,6 +101,10 @@ color: #33475b;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.orange.button:hover {
+  background-color: #ff8f73;
 }
 
 .second.navbar {
@@ -201,7 +210,7 @@ font-size: 30px;
 .crm.section {
   min-height: 360px;
   margin: 1% 12vw;
-  box-shadow: 0 0 4px #CCCCCC;
+  box-shadow: 0 0 10px #eeeeee;
   background-color: white;
 }
 
@@ -259,18 +268,18 @@ font-size: 30px;
 }
 
 .middle-columns {
-  height: 45%;
+  min-height: 720px;
   margin: 47px 12vw;
 }
 
 .hub {
   float: left;
-  min-height: 800px;
+  min-height: 750px;
   width: 30%;
-  box-shadow: 0 0 4px #CCCCCC;
+  box-shadow: 0 0 10px #eeeeee;
   background-color: white;
   text-align: center;
-  margin-bottom: 60px;
+  padding-bottom: 25px;
 }
 
 .hub img {
@@ -504,11 +513,15 @@ footer p {
   color: #32495b;
 }
 
+#support-button a:hover {
+  background-color: #eaeef0;
+}
+
 .footer-top .fab {
   margin-right: 25px;
 }
 
-.footer-top .fab:hover {
+footer a:hover {
   color: #7fd1de;
 }
 
