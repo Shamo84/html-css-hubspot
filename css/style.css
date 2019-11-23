@@ -453,7 +453,7 @@ font-size: 13px;
 
 footer {
   background-color: #32495b;
-  min-height: 660px;
+  min-height: 600px;
   padding: 40px 0 30px;
 }
 
@@ -484,7 +484,8 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-top li a {
+footer a,
+footer p {
   text-decoration: none;
   color: #cbd6e2;
 }
@@ -509,8 +510,35 @@ footer {
   color: #7fd1de;
 }
 
-.footer-bottom {
-  min-height: 200px;
+.footer-bottom{
+  min-height: 150px;
   margin: 80px 12vw 0;
-  background-color: lightblue;
+  text-align: center;
+}
+
+.footer-bottom ul li {
+  display: inline-block;
+  margin: 0 10px 18px;
+}
+
+.footer-bottom hr {
+  margin-bottom: 40px;
+}
+
+.footer-bottom-left {
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+
+.footer-bottom-left img {
+  margin-bottom: 5px;
+}
+
+.footer-bottom-right {
+  float: right;
+}
+
+.footer-bottom-right a{
+  margin-left: 20px;
 }
