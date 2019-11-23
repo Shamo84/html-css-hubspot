@@ -12,7 +12,8 @@
 .main-middle.second-row::after,
 .main-bottom-top::after,
 .main-bottom-bottom::after,
-footer-top::after {
+footer-top::after,
+.footer-bottom::after {
   content: "";
   display: table;
   clear: both;
@@ -27,6 +28,7 @@ color: #33475b;
   color: white
 }
 
+/* ----------------------------------------------------------------------------navbar */
 .navbar,
 .header.main {
   padding: 0 12vw;
@@ -62,6 +64,7 @@ color: #33475b;
   border-right: 1px solid black;
 }
 
+/* -----------------------------------------------------------------------------header  */
 .header .buttons {
   display: inline;
 }
@@ -163,7 +166,7 @@ header .thick-hr {
   background-color: #afebe4;
   height: 85px;
 }
-
+/* -------------------------------------------------------------------------------main top */
 .main.top {
   background-color: #f4f9fd;
   width: auto;
@@ -302,7 +305,7 @@ font-size: 30px;
   text-transform: capitalize;
   margin: 10px auto 70px;
 }
-
+/* --------------------------------------------------------------------------main middle */
 .main.middle {
   position: relative;
   background-color: #00aab7;
@@ -361,7 +364,7 @@ margin-bottom: 12px;
 .main-middle .middle-comment {
 font-size: 13px;
 }
-
+/* --------------------------------------------------------------------------main bottom */
 .main.bottom {
   background-color: #FFF;
   min-height: 755px;
@@ -450,7 +453,7 @@ font-size: 13px;
   float: right;
   width: 28%;
 }
-
+/* -----------------------------------------------------------------------------footer */
 footer {
   background-color: #32495b;
   min-height: 600px;
@@ -479,7 +482,6 @@ footer {
 }
 
 .footer-top h5 {
-  color: white;
   font-size: 18px;
   margin-bottom: 10px;
 }
