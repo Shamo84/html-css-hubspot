@@ -27,7 +27,6 @@ color: #33475b;
 
 .navbar {
   width: 100%;
-  /* height: 85px; */
 }
 
 .navbar a {
@@ -376,12 +375,12 @@ font-size: 13px;
 
 .main-bottom-top {
   min-height: 180px;
-  width: 90%;
+  width: 92%;
 }
 
 .main-bottom-top-left {
   float: left;
-  width: 32%;
+  width: 26%;
   padding: 0 80px;
 }
 
@@ -403,30 +402,19 @@ font-size: 13px;
   width: 24%;
   height: 70px;
   display: inline-block;
-  vertical-align: text-bottom;
+  position: relative;
 }
 
 .main-bottom-top-right img {
   width: 80%;
-  padding: 30px 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .main-bottom-bottom{
   min-height: 400px;
-}
-
-#atlassian,
-#doordash,
-#wmware {
-  margin-top: 12px;
-}
-
-#subaru {
-  margin-top: 6px;
-}
-
-#wistia {
-  margin-top: 15px;
 }
 
 .main-bottom-bottom-left-container {
@@ -450,7 +438,7 @@ font-size: 13px;
 
 .main-bottom-bottom img {
   float: right;
-  width: 28%;
+  width: 24%;
 }
 /* -----------------------------------------------------------------------------footer */
 footer {
