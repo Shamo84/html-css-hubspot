@@ -4,17 +4,7 @@
   padding: 0;
 }
 
-.first.navbar::after,
-.header.second.navbar::after,
-.crm.section::after,
-.main.top::after,
-.middle-columns::after,
-.main-middle.first-row::after,
-.main-middle.second-row::after,
-.main-bottom-top::after,
-.main-bottom-bottom::after,
-footer-top::after,
-.footer-bottom::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
